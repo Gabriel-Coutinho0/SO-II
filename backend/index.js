@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3001;
 
 const bancozada = mysql.createConnection({
-    host: '192.168.216.168',
+    host: '192.168.150.168',
     user: 'fatec',
     password: '11',
     database: "entrega3"
